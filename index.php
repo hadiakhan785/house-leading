@@ -6,8 +6,10 @@
     <title>House Leading - Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/script.js"></script>
+
   </head>
-  <body>
+  <body onload="init()">
     <!-- Header -->
     <?php include 'header.php'; ?>
 
