@@ -1,14 +1,14 @@
 
   <!-- Header Start -->
-  <header class="main-header">
-      <nav>
-        <div class="brand">
-          <a href="#">
+  <header class="site-header">
+      <nav class="clearfix">
+        <div class="site-branding">
+          <a href="#" class="site-title">
             <img class="brand" src="images/logo.png" alt="brand logo">
           </a>
         </div>
 
-        <div class="navbar">
+        <div class="main-navigation">
           <ul>
             <li class="navbar-item">
               <a href="index.php" class="navbar-link">Home</a>
@@ -24,5 +24,5 @@
           </ul>
         </div>
       </nav>
-    </header>
+  </header>
     <!-- Header End -->
