@@ -1,0 +1,41 @@
+//===========================================
+    // -Buttons start
+//===========================================
+
+.btn {
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  &[disabled], &.disabled{
+    cursor: not-allowed;
+  }
+}
+
+.btn-primery {
+	padding: 10px 20px;
+	background-color: $white;
+	color: $primery-color;
+	font-size: rem(24);
+	font-weight: 600;
+	transition: 400ms;
+	&:hover {
+		background-color: $primery-color;
+		color: White;
+	} 
+}
+.btn-secndry {
+	padding: 10px 20px;
+	background-color: $primery-color;
+	color: $white;
+	font-size: rem(24);
+	font-weight: 600;
+  transition: 400ms;
+	&:hover {
+		background-color: $black;
+		color: White;
+	} 
+}
+//===========================================
+    // -Buttons end
+//===========================================

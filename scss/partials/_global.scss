@@ -1,0 +1,152 @@
+//=======================================================
+// -Global style start
+//=======================================================
+
+
+// Default style start
+
+html, body {
+  font-family: $font-default;
+	font-size: 16px;
+	
+	@include mq('sm', min) {
+    font-size: 10px;
+  }
+	@include mq('md', min) {
+    font-size: 12px;
+  }
+	@include mq('lg', min) {
+    font-size: 14px;
+  }
+  @include mq('xl', min) {
+    font-size: 16px;
+  }
+}
+
+.container {
+  // width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.banner-section{
+  height: 500px;
+
+  img{
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
+.card {
+	position: relative;
+  // border: 1px solid #e1dddd; 
+  max-width: 30%;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  z-index: 1;
+  margin: 16px;
+  
+  &:hover{
+    .card-head{
+      .cost{
+        .cost-btn{
+          background-color: $primery-color;
+          color: White;
+        }
+      }
+    }
+    
+    
+  }
+  
+  .card-head {
+    position: relative;
+    
+    img{
+      width: 100%;
+    }
+    
+    .cost {
+			.cost-btn {
+				display: inline-block;
+				position: absolute;
+				bottom: 20px;
+				left: 20px;
+				z-index: 10;
+				margin-bottom: 0;
+				line-height: 1;
+				-webkit-transition-duration: 500ms;
+        transition-duration: 500ms; 
+        padding: 10px 20px;
+        background-color: $white;
+        color: $primery-color;
+        font-size: rem(24);
+        font-weight: 600;
+			}
+		} 
+	}
+	.card-body {
+    padding: 30px;
+    font-family: $font-primery;
+		h5 {
+      font-size: rem(18); 
+      margin: 0;
+      margin-bottom: 8px;
+		}
+		p {
+      margin: 0;
+      margin-bottom: 30px;
+		}
+		.location {
+      color: $primery-color;
+      margin: 0;
+			margin-bottom: 25px;
+			font-size: 14px;
+      font-weight: 600; 
+      display: flex;
+			i {
+				margin-right: 6px;
+        font-size: rem(18);
+        font-weight: 900;
+			}
+    }
+    
+    .description{
+      color: #7d7d7d;
+      font-size: rem(14);
+      line-height: 2;
+
+      .more-link{
+        color: $primery-color;
+      }
+    }
+
+		.property-meta-data {
+      font-size: rem(24);
+      
+			span {
+				font-size: 12px;
+				margin-left: 5px;
+        color: #838383;
+        font-size: rem(12);
+        
+      }
+      
+			i {
+        margin-right: 8px;
+        color: $primery-color;
+        font-size: rem(24);
+        
+			}
+		}
+	}
+} 
+//=======================================================
+// -Global style  end
+//=======================================================
