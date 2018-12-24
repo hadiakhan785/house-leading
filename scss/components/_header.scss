@@ -12,6 +12,10 @@
 	padding: 0 30px;
 	transition: all 0.6s ease-in-out;
 
+	@include mq('sm', max){
+		padding: 0 8px;
+	}
+
 	.site-branding{
 		float: left;
 		a{
