@@ -9,7 +9,7 @@
           <h5>ABOUTS US</h5>
           <img src="images/footer.jpg" alt="image">
           <br>
-          <img src="images/logo.png" alt="brand logo">
+          <img src="images/logo.png" alt="brand logo" class="brand-logo">
           <p class="about-intro">
             Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat. Praesent malesuada.
           </p>
