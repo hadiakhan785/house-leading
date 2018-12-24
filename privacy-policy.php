@@ -10,7 +10,15 @@
   <body>
       <!-- Header -->
       <?php include 'header.php'; ?>
-    
+
+      <!-- Policy Container Start -->
+      <article class="privacy">
+        <div class="container text-center">
+          <h2 class="privacy-title">Privacy Policy</h2>
+        </div>
+      </article>
+      <!-- Policy Container Start -->
+
       <!-- Footer -->
       <?php include 'footer.php'; ?>
   </body>

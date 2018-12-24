@@ -24,7 +24,7 @@ html, body {
 }
 
 .container {
-  // width: 100%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -45,7 +45,6 @@ html, body {
 
 .card {
 	position: relative;
-  // border: 1px solid #e1dddd; 
   max-width: 30%;
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);

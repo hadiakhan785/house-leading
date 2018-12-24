@@ -8,6 +8,20 @@
 	align-items: center;
 }
 
+.clearfix{
+	&:after {
+		content: " "; 
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both;
+	 }
+}
+
+.text-center{
+	text-align: center;
+}
+
 //===========================================
 // -Helper Classes end
 //===========================================
