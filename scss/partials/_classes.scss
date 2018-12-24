@@ -8,6 +8,28 @@
 	align-items: center;
 }
 
+.clearfix{
+	&:after {
+		content: " "; 
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both;
+	 }
+}
+
+.footer-div-alignments {
+	line-height : 28px;
+	margin: 0px;
+	width: (100% / 3);
+	min-width: 350px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: rem(16);
+	padding: 10px 20px;
+}
 //===========================================
 // -Helper Classes end
 //===========================================

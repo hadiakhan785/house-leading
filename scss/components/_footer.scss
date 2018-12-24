@@ -1,7 +1,87 @@
 //===========================================
 	// -Footer start
 //===========================================
+.main-footer {
+	background-image: url("../images/cta.jpg");
+	.footer-layout {
+		background-color: #000000f2;
+	}
+}
+.flex-footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	color: #7d7d7d;
+	flex-wrap: wrap;
 
+}
+.about-us {
+	h5 {
+		font-size: rem(16);
+		color: $white;
+		margin-bottom: 100px;
+		border-bottom: 2px solid $primery-color;
+	}
+
+}
+.contact-details {
+	h5 {
+		font-size: rem(16);
+		color: $white;
+		margin-bottom: 100px;
+		border-bottom: 2px solid $primery-color;
+	}
+	.timings-detail {
+		ul {
+			padding: 0px;
+			li {
+				padding:  10px 0px 15px 0px;
+				border-bottom: 1px solid #7d7d7d;
+				list-style: none;
+			}
+		}
+	}
+	.icon-hl-phone, .icon-hl-mail, .icon-hl-gps {
+			color: $primery-color;
+			margin: 0px 10px 0px 0px;
+			font-size: rem(18);
+	}
+
+
+}
+.useful-links {
+	height: 550px;
+	h5 {
+		font-size: rem(16);
+		color: $white;
+		margin-bottom: 100px;
+		border-bottom: 2px solid $primery-color;
+	}
+	ul {
+		padding: 0px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		li {
+			width: 40%;
+			padding:  10px 0px 15px 0px;
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: #7d7d7d;
+				border-bottom: 2px solid transparent;
+				transition: 400ms;
+				line-height: 10px;
+				&:hover {
+					border-bottom: 2px solid $primery-color;
+					color: $primery-color;
+				}
+			}
+		}
+	}
+
+}
 //===========================================
 	// -Footer end
 //===========================================

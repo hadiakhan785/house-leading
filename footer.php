@@ -1,12 +1,14 @@
 
   <!-- Footer Start -->
   <footer class="main-footer">
-      <div class="container">
+    <div class="footer-layout">
+      <div class="container flex-footer">
 
         <!-- About Us Start -->
-        <div class="about-us">
+        <div class="about-us footer-div-alignments">
           <h5>ABOUTS US</h5>
           <img src="images/footer.jpg" alt="image">
+          <br>
           <img src="images/logo.png" alt="brand logo">
           <p class="about-intro">
             Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat. Praesent malesuada.
@@ -15,7 +17,7 @@
         <!-- About Us End -->
 
         <!-- Contact Details Start -->
-        <div class="contact-details">
+        <div class="contact-details footer-div-alignments">
           <h5>HOURS</h5>
           <div class="timings-detail">
             <ul>
@@ -25,7 +27,7 @@
             </ul>
           </div>
 
-          <div class="phone-address">
+          <div class="phone-address ">
             <p class="phone-numb">
               <i class="icon-hl-phone"></i> +45 677 8993000 223
             </p>
@@ -42,7 +44,7 @@
         <!-- Contact Details End -->
 
         <!-- Useful Links Start -->
-        <div class="useful-links">
+        <div class="useful-links footer-div-alignments">
           <h5>USEFUL LINKS</h5>
           <ul class="links-list">
             <li class="links-item">
@@ -52,6 +54,24 @@
               <a href="#">Properties</a>
             </li>
             <li class="links-item">
+              <a href="#">About Us</a>
+            </li>
+            <li class="links-item">
+              <a href="#">Services</a>
+            </li>
+            <li class="links-item">
+              <a href="#">Listening</a>
+            </li>
+            <li class="links-item">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="links-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="links-item">
+              <a href="#">Elements</a>
+            </li>
+            <li class="links-item">
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
@@ -59,6 +79,7 @@
         <!-- Useful Links End -->
 
 
+      </div>
       </div>
     </footer>
     <!-- Footer End -->
