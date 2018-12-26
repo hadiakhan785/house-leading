@@ -36,11 +36,12 @@ html, body {
 .banner-section{
   height: 900px;
   background-image: url("../images/hero1.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
   h1 {
     font-size: rem(70);
     font-weight: 700;
