@@ -3,37 +3,70 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>House Leading - Post</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <script src="js/script.js"></script>
 </head>
-<body>
-   <!-- Header Start -->
-   <header class="main-header">
-      <nav>
-        <div class="brand">
-          <a href="#">
-            <img class="brand" src="images/logo.png" alt="brand logo">
-          </a>
-        </div>
+<body onload="init()">
+  <!-- Header Start -->
+  <?php include 'header.php' ?>
+  <!-- Header End -->
 
-        <div class="navbar">
-          <ul>
-            <li class="navbar-item">
-              <a href="index.php" class="navbar-link">Home</a>
-            </li>
+  <!-- Post Start -->
+  <div class="single-post-container">
+    <div class="container">
+      <!-- Card 1 End-->
+      <div class="card">
+                <div class="card-head">
+                  <img src="images/feature1.jpg" alt="feature image">
+                  <div class="cost">
+                    <p class="cost-btn">
+                      $954 890
+                    </p>
+                  </div>
+                </div>
 
-            <li class="navbar-item">
-              <a href="posts-page.php" class="navbar-link">Properties</a>
-            </li>
+                <div class="card-body">
+                  <h5>Vital Villas</h5>
+                  <p class="location">
+                    <i class="icon-hl-gps"></i> Upper Road 3411, no.34 CA
+                  </p>
 
-            <li class="navbar-item">
-              <a href="privacy-policy.php" class="navbar-link">Privacy Policy</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- Header End -->
+                  <p class="description">
+                  Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.
+                  <a href="single-post.php" class="more-link">Read More</a>
+                  </p>
+
+                  <div class="property-meta-data flex-d">
+                    <div class="new-tag flex-d">
+                      <i class="icon-hl-new"></i>
+                    </div>
+
+                    <div class="bathroom flex-d">
+                      <i class="icon-hl-bathroom"></i>
+                      <span class="bathroom-quantity">2</span>
+                    </div>
+                    <div class="bedroom flex-d">
+                      <i class="icon-hl-bed"></i>
+                      <span class="rooms-quantity">2</span>
+                    </div>
+                    <div class="space flex-d">
+                      <i class="icon-hl-resize"></i>
+                      <span class="space-measurement">120 sq ft</span>
+                      
+                    </div>
+                  </div>  
+                </div>
+              </div>
+             <!-- Card 1 End -->
+    </div>
+  </div>
+  <!-- Post End -->
+
+  <!-- Footer Start -->
+  <?php include 'footer.php' ?>
+  <!-- Footer End -->
 </body>
 </html>

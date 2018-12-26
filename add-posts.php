@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
   <script src="js/script.js"></script>
 </head>
-<body>
+<body onload="init()">
   <!-- Header Start -->
   <?php include 'header.php'; ?>
   <!-- Header End -->
