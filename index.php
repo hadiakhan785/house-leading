@@ -16,7 +16,7 @@
 
     <!-- Banner Start -->
     <div class="banner-section">
-        <img src="images/hero1.jpg" alt="">
+      <h1>HOME</h1>
     </div>
     <!-- Banner End -->
 
