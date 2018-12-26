@@ -13,6 +13,11 @@
       <?php include 'header.php'; ?>
 
       <!-- Policy Container Start -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br>
       <article class="privacy">
         <div class="container text-center">
           <h2 class="privacy-title">Privacy Policy</h2>
