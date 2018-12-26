@@ -12,7 +12,7 @@
   <body onload="init()">
     <!-- Header -->
     <?php include 'header.php'; ?>
-    
+
     <!-- Footer -->
     <?php include 'footer.php'; ?>
   </body>
