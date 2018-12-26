@@ -25,6 +25,8 @@
       <!-- Latest Posts Container Start -->
       <div class="latest-posts-container">
 
+      <h2 class="section-heading">FEATURED PROPERTIES</h2>
+
         <div class="container latest-posts-wrapper">
 
           <!-- Card 1 End-->
@@ -325,8 +327,8 @@
             </div>
             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odiomattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget aliquam magna vehicula.</p>
             <div class="address">
-                <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
-                <h6><img src="img/icons/envelope.png" alt=""> house_leading_official@abc.com</h6>
+                <h6><i class="icon-hl-phone"></i> +92 21 38993000-223</h6>
+                <h6><i class="icon-hl-mail"></i> house_leading_official@abc.com</h6>
             </div>
         </div>
 

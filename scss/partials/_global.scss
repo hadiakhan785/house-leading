@@ -33,6 +33,16 @@ html, body {
   box-sizing: border-box;
 }
 
+.section-heading{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: #323232;
+  font-family: $font-primery;
+}
+
 .banner-section{
   height: 900px;
   background-image: url("../images/hero1.jpg");

@@ -27,14 +27,16 @@
 
         <div class="container">
 
+        <h2 class="section-heading">PROPERTIES</h2>
+
         <!-- Tabs Buttons -->
         <div class="tabs">
-          <button class="tab-links btn-primery" onclick="openTab()" id="default-open" class="tab-links">House</button>
-          <button class="tab-links btn-primery" onclick="openTab()" class="tab-links">Appartment</button>
+          <button class="tab-links btn-primery tab-links" onclick="openTab(event, 'houses')" id="default-open">HOUSES</button><button class="tab-links btn-primery tab-links" onclick="openTab(event, 'appartments')">APPARTMENTS</button>
         </div>
 
-        <!-- Houses Container Start -->
-        <div class="latest-posts-wrapper houses-container" class="tab-content">
+        <div class="latest-posts-wrapper">
+          <!-- Houses Container Start -->
+        <div class="houses-container tab-content" id="houses">
              <!-- Card 1 End-->
              <div class="card">
                 <div class="card-head">
@@ -584,11 +586,11 @@
         <!-- Houses Container End -->
 
         <!-- Appartment Container Start -->
-        <div class="latest-posts-wrapper houses-container" class="tab-content">
+        <div class="appartment-container tab-content" id="appartments">
              <!-- Card 1 End-->
              <div class="card">
                 <div class="card-head">
-                  <img src="images/feature1.jpg" alt="feature image">
+                  <img src="images/feature2.jpg" alt="feature image">
                   <div class="cost">
                     <p class="cost-btn">
                       $954 890
@@ -633,7 +635,7 @@
               <!-- Card 2 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -678,7 +680,7 @@
               <!-- Card 3 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -723,7 +725,7 @@
               <!-- Card 4 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -768,7 +770,7 @@
               <!-- Card 5 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -813,7 +815,7 @@
               <!-- Card 6 Start -->
               <div class="card">
                 <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -859,7 +861,7 @@
               <!-- Card 7 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -905,7 +907,7 @@
               <!-- Card 8 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -951,7 +953,7 @@
               <!-- Card 9 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -997,7 +999,7 @@
               <!-- Card 10 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -1043,7 +1045,7 @@
               <!-- Card 11 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -1089,7 +1091,7 @@
               <!-- Card 12 End-->
               <div class="card">
                     <div class="card-head">
-                      <img src="images/feature1.jpg" alt="feature image">
+                      <img src="images/feature2.jpg" alt="feature image">
                       <div class="cost">
                         <p class="cost-btn">
                           $954 890
@@ -1132,6 +1134,8 @@
               <!-- Card 12 End -->
         </div>
         <!-- Appartment Container End -->
+        </div>
+        
       </div>
       <!-- Latest Posts Container End -->
     </article>
