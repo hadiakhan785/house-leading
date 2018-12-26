@@ -24,6 +24,15 @@
 		background-color: $primery-color;
 		color: White;
 	} 
+
+	&:focus{
+		outline: none;
+	}
+
+	&:active{
+		background-color: lighten($primery-color, 70%);	
+		color: $black;
+	}
 }
 .btn-secndry {
 	padding: 10px 20px;
