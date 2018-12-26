@@ -88,6 +88,10 @@
 	.address {
 		h6 {
 			font-size: rem(18); 
+			i {
+				color: $primery-color;
+				margin-right: 5px; 
+			}
 		}
 	} 
 	.section-heading {
