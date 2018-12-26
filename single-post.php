@@ -18,7 +18,7 @@
   <div class="single-post-container">
     <div class="container">
       <!-- Card 1 End-->
-      <div class="card">
+      <div class="single-post card">
                 <div class="card-head">
                   <img src="images/feature1.jpg" alt="feature image">
                   <div class="cost">
