@@ -30,7 +30,7 @@
                   </p>
 
                   <p class="description post-details"> 
-                    Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.  
+                    Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.  
                   </p>
                   <div class="further-detail flex-d">
                   <div class="bathroom post-details">
@@ -72,7 +72,7 @@
                   </div>
                   </div>
                   
-                    <button class="btn-secndry">
+                    <button class="btn-secndry booknow">
                       BOOK NOW
                     </button>
                   
